@@ -19,9 +19,6 @@
           el.src = $el.data('imgSrc');
           $el.data('imgLoaded', true);
           $el.removeClass('batched-image-loader');
-          el.onerror = function(img) {
-            img.onerror = null;
-          };
         }
       });
     };
