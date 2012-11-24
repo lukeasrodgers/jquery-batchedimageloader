@@ -18,7 +18,7 @@
         if (!loaded) {
           el.src = $el.data('imgSrc');
           $el.data('imgLoaded', true);
-          $el.removeClass('batched-image-loader');
+          $el.removeClass(options.className);
         }
       });
     };
