@@ -1,4 +1,5 @@
-Small plugin to batch load images to avoid rate-limited image requests.
+Small plugin (about half a KB, minified) to batch load images to avoid
+rate-limited image requests.
 
 It works by splitting up the images into batches, then delayed-loading
 them with setTimeout.
