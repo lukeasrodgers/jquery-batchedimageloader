@@ -19,6 +19,8 @@ Create markup like so (example uses Handlebars-style templating):
 <img src="{default_picture}" alt="" width="48" height="48" class="batched-image-loader" data-img-src="{picture}" data-img-loaded="false" />
 ```
 
+`default_picture` is optional, could be a default user avatar icon.
+`picture` should be the real image source, provided by the Google API.
 
 Then call batchedImageLoader() on the containing element:
 
