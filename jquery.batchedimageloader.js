@@ -32,7 +32,7 @@
     while (true) {
       var batch = this.slice(i * batchSize, batchSize + (i * batchSize));
       timeout_batch(batch, i);
-      if (batch.length < 10) {
+      if (batch.length < batchSize) {
         break;
       }
       i++;
